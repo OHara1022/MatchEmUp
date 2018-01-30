@@ -52,7 +52,7 @@ extension GameViewController {
         //set timer label to count up from zero
         timerOutlet.text = "Time: \(cardDetail.counter)"
         
-        //check if counter is over 60 seconds
+        //check if counter is over 60 seconds 
         if cardDetail.counter >= 60{
             
             //dev
