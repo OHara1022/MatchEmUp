@@ -36,7 +36,7 @@ extension GameViewController {
     
     //covert seconds to minutes for timer label
     func formatToMin(_ totalSeconds: Int) -> String {
-        
+        //get minutes & seconds
         let minutes = totalSeconds / 60;
         let seconds = totalSeconds % 60;
         
@@ -60,7 +60,6 @@ extension GameViewController {
             
             timerOutlet.text = "Time: \(formatToMin(cardDetail.counter))"
         }
-        
     }
     
     //set timer 
@@ -187,7 +186,7 @@ extension GameViewController {
             self.timer()
             
             //reshuffle deck
-//            self.shuffle()
+            self.shuffle()
             
             //loop through imageCollection
             for i in self.cardOutletCollection{

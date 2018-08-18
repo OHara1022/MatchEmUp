@@ -14,7 +14,7 @@ class GameViewController: UIViewController {
     @IBOutlet var cardOutletCollection: [UIImageView]!
     
     //outlet for timer
-    @IBOutlet weak var timerOutlet: UILabel!
+    @IBOutlet weak var timerOutlet: UILabel!   
     
     //outlet to show and hide button when game is paused
     @IBOutlet weak var resumeButtonOutlet: UIButton!
@@ -78,7 +78,7 @@ class GameViewController: UIViewController {
         
         
         //shuffle cards when view loads
-//        shuffle()
+        shuffle()
         
         
         //imageCollection loop and add tapGesture
