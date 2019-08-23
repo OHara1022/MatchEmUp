@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController {
     
     //create imageCollectionView for images
-    @IBOutlet var cardOutletCollection: [UIImageView]!
+    @IBOutlet var cardOutletCollection: [UIImageView]! 
     
     //outlet for timer
     @IBOutlet weak var timerOutlet: UILabel!   
